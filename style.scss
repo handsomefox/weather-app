@@ -18,36 +18,6 @@ body
     font-size: 18;
 }
 
-.container {
-  position: relative;
-  margin: 5px;
-  width: 200px;
-  display: inline-block;
-}
-
-.pos_absolute {
-  position: absolute;
-  white-space: nowrap;
-  background: antiquewhite;
-}
-
-.top-left {
-  top: 0;
-  left: 0;
-  transform: translate(0%, -50%);
-}
-
-.top-center {
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.content {
-  background: coral;
-  padding-top: .5rem;
-}
-
 .Header{
     display: flex;
     flex-direction:column;
